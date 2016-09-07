@@ -49,4 +49,4 @@ remote GitHub repository. Follow the steps below exactly in order to receive ful
    this file in step 3 above.
    
    The instructor will then clone your copy of your repository, and update it each week with a
-   `git pull`, to review your Production Problems.
+   `git pull`, to review your Production Problems.   this is text
