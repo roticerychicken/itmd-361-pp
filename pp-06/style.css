@@ -29,32 +29,37 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ==== LAYOUT STYLES ==== */
 #content {
 display: flex;
-  flex-direction: column-reverse;
-
 }
 
 #three,
 #two,
 #one {
-height: 45vw;
+	height: 45vw;
   width:  45vw;
 }
 
 #three {
-color: blue;
+	order: 3;
 }
 
 #two {
-
+	order: 2;
 }
 
 #one {
-
+	order: 1;
 }
 
 @media screen and (min-width: 600px) {
+	
+#three {
+	order:4; flex: 0 1 min-width;
+}
 #content {
-
+	flex-flow: row wrap;
+	display: flex;
+	 flex-wrap: nowrap | wrap | wrap-reverse;
+	/*flex-direction: column-reverse;*/
 }
 
 @media screen and (min-width: 800px) {
