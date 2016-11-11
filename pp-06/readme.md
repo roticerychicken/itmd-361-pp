@@ -9,7 +9,7 @@ Using CSS Flexbox (refer to https://css-tricks.com/snippets/css/a-guide-to-flexb
 3. At the 600px break point, inside the media query change the flex box so that One and Two each take up half the viewport but remain as squares sitting side-by-side, while Three sits below and takes up the whole viewport. An arrangement like this:
 
 | One | Two |
-| Three     |
+|   Three   |
 
 4. Finally, at the 800px break point, have all three boxes display as squares in One, Two, Three order, spread equally across the entire viewport.
 
