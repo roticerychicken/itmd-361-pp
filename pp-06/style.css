@@ -53,7 +53,19 @@ display: flex;
 @media screen and (min-width: 600px) {
 	
 #three {
-	order:4; flex: 0 1 min-width;
+	order:3; flex: 0 1 min-width;
+	width: 100vw;
+	height: 100vw;
+}
+#one {	
+	order:1;
+	width: 50vw;
+	height: 50vw;
+}
+#two {
+	order:2;
+	width: 50vw;
+	height: 50vw;
 }
 #content {
 	flex-flow: row wrap;
@@ -63,5 +75,11 @@ display: flex;
 }
 
 @media screen and (min-width: 800px) {
-
+	#one,
+	#two,
+	#three {
+		flex-grow: 1;
+		width: 15vw;
+		height: 15vw;
+	}
 }
