@@ -8,27 +8,51 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* ===== BASE STYLES ===== */
-<<<<<<< HEAD
 
-html {
-	font-family: helvetica;
-	padding-bottom: 1.2em 0.94em;
+/* ==== MODULAR STYLES === */
+#three,
+#two,
+#one {
+  color: white;
 }
-h1 {
-	font-weight: bold;
-	font-size: 2.25em;
-	line-height: 1.03em;
-	padding-bottom: 0.3em;
+#three {
+  background-color: purple;
+}
+#two {
+  background-color: green;
+}
+#one {
+  background-color: red;
+}
+
+
+/* ==== LAYOUT STYLES ==== */
+#content {
 
 }
-p,ul {
-	padding-bottom: 1.02em;
+
+#three,
+#two,
+#one {
+
 }
-article {
-	font-size: 1.2em;
+
+#three {
+
 }
-li:last-child {
-	padding-bottom: 0.5em;
+
+#two {
+
 }
-=======
->>>>>>> e08082271b97f5c88dd01644f6fca10d334312aa
+
+#one {
+
+}
+
+@media screen and (min-width: 600px) {
+
+}
+
+@media screen and (min-width: 800px) {
+
+}

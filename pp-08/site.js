@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 $.noConflict();
 (function(){
 $(document).ready(
   function($) {
+=======
+$(document).ready(
+  function() {
+>>>>>>> e08082271b97f5c88dd01644f6fca10d334312aa
     $('html').removeClass('nojs');
     $('html').addClass('hasjs');
 
@@ -12,4 +17,9 @@ $(document).ready(
     }
 
   }
+<<<<<<< HEAD
 })(jQuery);
+=======
+);
+
+>>>>>>> e08082271b97f5c88dd01644f6fca10d334312aa
